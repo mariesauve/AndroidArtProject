@@ -1,3 +1,5 @@
 # AndroidArt
- ArtApp
-![alt text](contactBtn.png) <br/> ![alt text](loginSuccess.png) <br/> ![alt text](signup-successtoat.png)
+ ArtApp<br/> 
+ <br/>
+![alt text](signup-successtoat.png)  ![alt text](loginSuccess.png)
+<br/>  ![alt text](contactBtn.png)
