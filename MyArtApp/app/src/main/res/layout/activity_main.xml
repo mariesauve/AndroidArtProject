@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/page_bg"
+    tools:context=".Activity.MainActivity">
+
+    <!-- Welcome Text -->
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintTop_toBottomOf="@id/hiTxt"
+        tools:ignore="NotSibling">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <!-- Back Button -->
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/backBtn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="289dp"
+                    android:layout_marginTop="20dp"
+                    android:textColor="@color/white"
+                    android:background="@drawable/button_bg"
+                    android:text="Back"
+                    tools:ignore="DuplicateClickableBoundsCheck" />
+
+                <!-- User Message Input Field -->
+                <TextView
+                    android:id="@+id/hiTxt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="80dp"
+                    android:layout_marginTop="200dp"
+                    android:text="Send me a message"
+                    android:textColor="@color/lightOrange"
+                    android:textSize="24sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent" />
+
+                <EditText
+                    android:id="@+id/emailInput"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="80dp"
+                    android:layout_marginTop="80dp"
+                    android:layout_marginEnd="80dp"
+                    android:hint="Start your message"
+                    android:inputType="textMultiLine"
+                    tools:ignore="TouchTargetSizeCheck" />
+
+                <!-- Button to Send Email -->
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/sendEmailLinkBtn"
+                    android:layout_width="150dp"
+                    android:layout_height="50dp"
+                    android:layout_marginStart="80dp"
+                    android:layout_marginTop="20dp"
+                    android:textColor="@color/white"
+                    android:background="@drawable/button_bg"
+                    android:text="Send Email" />
+
+                <ImageView
+                    android:id="@+id/imageView2"
+                    android:layout_width="385dp"
+                    android:layout_height="375dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="300dp"
+                    app:layout_constraintEnd_toEndOf="@id/emailInput"
+                    app:layout_constraintStart_toStartOf="@id/emailInput"
+
+                    app:srcCompat="@drawable/rocket" />
+
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            </FrameLayout>
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="385dp"
+                android:layout_height="475dp"
+                android:layout_marginStart="10dp"
+                app:srcCompat="@drawable/digitalartgalaxy" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

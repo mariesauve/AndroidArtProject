@@ -1,0 +1,19 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+<!-- Base application theme. -->
+<style name="Base.Theme.myartapp" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+
+    <item name="colorPrimary">@color/blue</item>
+    <item name="colorPrimaryVariant">@color/blue</item>
+    <item name="android:statusBarColor">@color/page</item>
+</style>
+
+<style name="Theme.myartapp" parent="Base.Theme.myartapp" />
+<style name="CircleImageView">
+    <item name="cornerFamily">rounded</item>
+    <item name="cornerSize">10dp</item>
+</style>
+<style name="CircleImageView2">
+    <item name="cornerFamily">rounded</item>
+    <item name="cornerSize">25dp</item>
+</style>
+</resources>

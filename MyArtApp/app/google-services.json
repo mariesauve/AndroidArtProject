@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "225594311577",
+    "firebase_url": "https://artapp-fff87-default-rtdb.firebaseio.com",
+    "project_id": "artapp-fff87",
+    "storage_bucket": "artapp-fff87.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:225594311577:android:85d248235209e2e8a08908",
+        "android_client_info": {
+          "package_name": "com.mariesauve.myartapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAqpzmOwGuEOQUjtOqox-ziAUznzh1BAqs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:225594311577:android:c32b374db1fa1029a08908",
+        "android_client_info": {
+          "package_name": "com.mariesauve.myartapp2"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAqpzmOwGuEOQUjtOqox-ziAUznzh1BAqs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
