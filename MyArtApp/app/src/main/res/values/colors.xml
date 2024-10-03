@@ -23,7 +23,8 @@
         <color name="grey">#BAB9B7</color>
     <color name="blue">#2196F3</color>
     <color name="lightblue">#47E4FF</color>
-
+    <color name="purple">#3B1480</color>
+    <color name="lightpurple">#9065DB</color>
     <color name="button_default_color">#FF6200EE</color>
     <color name="button_pressed_color">#FF3700B3</color>
 
